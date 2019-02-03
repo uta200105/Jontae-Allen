@@ -1,0 +1,19 @@
+.wrapper {
+    background-image: url("./images/funky-lines.png");
+}
+
+.logo {
+    border: 30px white solid;
+    border-radius: 15px;
+    animation: uifocus 2.5s infinite, mover 1s infinite alternate;
+}
+
+@keyframes uifocus {
+    from {border-color:rgb(243, 241, 241);}
+    to {border-color: rgb(135, 228, 223);}
+}
+
+@keyframes mover {
+    0% {transform: translateY(0); }
+    100% {transform: translateY(-10px); }
+}
