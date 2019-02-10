@@ -3,8 +3,8 @@
 nav {
   background-color: white;
   margin-bottom: 10px;
-  margin-left: 3%;
-  
+  margin-left: 2%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 a {
@@ -16,16 +16,16 @@ ul {
   float: right;
 }
 
-.navMenu1, .navMenu2, .navMenu3 {
-    font-size: 25px;
-    font-weight: bold;
-    padding-right: 10px;
+.navMenu1, .navMenu2, .navMenu3, .navMenu4, .navMenu5 {
+    font-size: 19px;
+    padding-right: 5px;
 }
 
 .logo {
   height: 75px;
   width: 65px;
   animation: rotate 2.5s infinite;
+  padding-right: 0;
 }
 
 .logo:hover {
@@ -40,14 +40,9 @@ nav a:hover {
   color: #777777;
 }
 
-.navMenu1::after, .navMenu2::after {
-  content: "|";
-  margin-left: 8%;
-  color: gainsboro;
-}
+
 
 .main {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   padding: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -57,14 +52,14 @@ nav a:hover {
 }
 
 h2 {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-family: Helvetica, sans-serif;
     color: #4aaaa5;
     border-bottom: 3px solid gainsboro; 
 }
 
 .img {
-  width: 150px;
-  height: 290px;
+  width: 110px;
+  height: 200px;
   margin-right: 20px;
   margin-bottom: 7px;
   float: left;

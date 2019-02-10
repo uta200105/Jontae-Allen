@@ -1,11 +1,24 @@
-.wrapper {
-    background-image: url("./images/funky-lines.png");
-}
+
 
 .logo {
     border: 30px white solid;
     border-radius: 15px;
     animation: uifocus 2.5s infinite, mover 1s infinite alternate;
+}
+
+#chevron {
+    color: rgb(135, 228, 223);
+    font-size: 70px;
+    padding-top: 3%;
+    padding-left: 42%;
+    padding-bottom: 6%;
+    animation: mover 1s infinite alternate;
+}
+
+.wrapper {
+    background-image: url("./images/funky-lines.png");
+    border-bottom: 1px solid gainsboro;
+    margin: 0;
 }
 
 @keyframes uifocus {
@@ -17,3 +30,117 @@
     0% {transform: translateY(0); }
     100% {transform: translateY(-10px); }
 }
+
+/* About Me */
+
+.navBar {
+    background-color: white;
+    margin:0 auto;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #4aaaa5;
+    font-size: 25px;
+    
+  }
+  .navMenu1, .navMenu2, .navMenu3, .navMenu4, .navMenu5 {
+      font-size: 18px;
+      padding-right: 6px;
+  }
+  
+  .logo2 {
+    height: 75px;
+    width: 55px;
+    padding-right: 9px;
+    padding-left: 25%;
+    margin-bottom: -10%;
+  }
+  
+  .logo2:hover {
+    opacity: 0.7;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a:hover {
+    color: #777777;
+  }
+  
+  .two {
+    margin: 15px;
+    color: #777777;
+    line-height: 1.7;
+  }
+  
+  .img {
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    float: left;
+  }
+
+  .content {
+      margin-top: 13%;
+  }
+
+  .wrapper1 {
+    border-bottom: 1px solid gainsboro;
+}
+
+  /* Experience */
+  
+   .eHeader {
+       color: #4aaaa5;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+
+   .experience {
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       color: #4aaaa5;
+       font-size: 15px;
+   }
+
+   .wrapper2 {
+    border-bottom: 1px solid #4aaaa5;
+}
+
+   
+
+   @media only screen and (min-width: 640px) {
+       .eHeader {
+           margin-left: 44%;
+           margin-bottom: 4%;
+       }
+       .eTitle, .eContent {
+           border: 1px solid #4aaaa5;
+           margin-top: 2%;
+           margin-bottom: 2%;   
+       }
+
+       .eTitle {
+           padding-top: 2%;
+           padding-bottom: 2%;
+           padding-left: 38%;
+           border-radius: 5px;
+           margin-bottom: -2%;
+       }
+
+       .eContent {
+           border-radius: 5px;
+           padding: 2%;
+           margin-bottom: 5%;
+       }
+       .exp {
+           margin-left: 20%;
+           margin-right: 20%;
+       }
+
+       
+    }
