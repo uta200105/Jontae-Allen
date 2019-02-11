@@ -113,3 +113,9 @@
     justify-content: center;
     flex-direction: column;
   }
+
+  /* Projects */
+
+  .side-content {
+      flex: 0 0 20%;
+  }
