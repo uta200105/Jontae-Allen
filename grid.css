@@ -92,3 +92,24 @@
       display: inline-block;
     }
   }
+
+/* Projects */
+
+.row {
+    display: flex;
+  }
+
+  .side-content-sm {
+    flex: 0 0 20%;
+  }
+  
+  .main-content-lg {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .project-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
