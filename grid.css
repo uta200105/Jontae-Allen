@@ -20,8 +20,6 @@
         padding-top: 0;
         padding-bottom: 0;
     }
-
-    
 }
 
 /* About Me */
@@ -29,29 +27,14 @@
 
 
 @media only screen and (min-width: 640px) {
-    .two {
-        padding-top: 3%;
-        margin-left: 20%;
-        margin-right: 20%;
-        margin-bottom: 3%;
-    }
-
-    .navBar, .navBar2 {
-        padding-top: 0;
-        padding-left: 6%;
-        padding-bottom: 1%;
-        margin-right: 20%;
-        margin-left: 20%;
-        border-radius: 5px; 
+    #navBar {
+        border-radius: 5px;
+        width: 100%; 
     }
 
     .logo2 {
         margin-bottom: -4%;
         padding-left: 38%;
-    }
-
-    ul {
-        padding-top: 4%;
     }
 
     a {
@@ -84,14 +67,22 @@
 
 }
 
-  /* Experience */
+/* Education */
 
+.card {
+    display: flex;
+    flex-direction: column;
+  }
 
   @media only screen and (min-width: 640px) {
-  .navBar2 {
-      display: inline-block;
-    }
-  }
+    .main-content {
+        flex: 0 0 60%;
+      }
+
+    .side-content {
+        flex: 0 0 5%;
+}
+}
 
 /* Projects */
 
