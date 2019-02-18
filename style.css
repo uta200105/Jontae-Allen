@@ -1,40 +1,27 @@
 body {
-    scroll-snap-type: mandatory;
-	scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-section {
-    scroll-snap-align: start;
-    height: 100vh;
-    width: 100vw;
-}
 
-.logo {
+.logoimg {
     border: 30px white solid;
     border-radius: 15px;
-    animation: uifocus 2.5s infinite, mover 1s infinite alternate;
+    
+    
 }
 
 #chevron {
-    color: rgb(135, 228, 223);
+    color: white;
     font-size: 70px;
     padding-top: 3%;
     padding-left: 42%;
-    padding-bottom: 6%;
+    text-shadow: 1px 1px 2px black;
     animation: mover 1s infinite alternate;
 }
 
 .wrapper {
-    background-image: url("./images/funky-lines.png");
-    border-bottom: 1px solid gainsboro;
-    margin: 0;
-}
-
-@keyframes uifocus {
-    from {border-color:rgb(243, 241, 241);}
-    to {border-color: rgb(135, 228, 223);}
+    background-color: #31b0d5;
+    height: 100vh;
 }
 
 @keyframes mover {
@@ -86,25 +73,45 @@ section {
   nav a:hover {
     color: #777777;
   }
-  
-  .img {
-    width: 150px;
-    height: 200px;
-    margin-right: 20px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    float: left;
+
+  .selfie {
+    
+      float: left;
+      margin-right: 15px;
+      
   }
 
-  .content {
-      margin-top: 13%;
-      margin: 15px;
+  .self-content {
       color: #777777;
       line-height: 1.7;
+      font-size: 20px;
+      margin-bottom: 4%;
   }
 
+  /* CONTACT ME LINKS*/
+
+.ul-contactMe {
+    text-align: center;
+    padding-left: 0;
+  }
+  
+  .li-contactMe-links {
+    display: inline-block;
+    list-style: none;
+  }
+  
+  .contactMe {
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  .contactMe-section {
+      margin-bottom: 8%;
+  }
+  
   .wrapper1 {
     border-bottom: 1px solid gainsboro;
+
 }
 
   /* Experience */
@@ -112,28 +119,43 @@ section {
    .eHeader {
        color: #31b0d5;
        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       text-align: center;
+       margin-bottom: 5%;
+       font-size: 35px;
    }
 
    .card {
        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
        color: #31b0d5;
        font-size: 15px;
+   } 
+
+   .expHeader {
+       color: white;
    }
 
-   .wrapper, .wrapper1, .wrapper2, .wrapper3, .wrapper4, .wrapper5 {
-    border: 1px solid red;
-}  
+   .wrapper2 {
+       background-color: #31b0d5;
+   }
+
 
    @media only screen and (min-width: 640px) {
-       .eHeader {
-          text-align: center;
-          margin-bottom: 5%;
-
-       }
+    .welcome-text {
+        font-size: 30px;
+        margin-top: 20%;
+        margin-left: 2%;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+    }
+       
+    .logoimg {
+        margin-top: 15%;
+    }
        .card-header, .card-content {
            border: 1px solid #31b0d5;
            margin-top: 2%;
-           margin-bottom: 2%;   
+           margin-bottom: 2%;
+           background-color: white;   
        }
 
        .card-header {
@@ -150,13 +172,17 @@ section {
            margin-bottom: 5%;
        }
 
-       .wrapper1, .wrapper3, .wrapper5 {
-           padding-top: 5%;
+       .wrapper1 {
+           padding-top: 3%;
        }
 
     }
 
      /* Projects */
+
+    .proHeader {
+        color: white;
+    }
 
      .project-card {
         display: flex;
@@ -191,6 +217,10 @@ section {
           border-radius: 5px;
           color: white;
           background-color: #31b0d5;
+      }
+
+      .wrapper4 {
+          background-image: url("https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
       }
 
       /* SKILLS */
