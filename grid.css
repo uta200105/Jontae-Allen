@@ -1,6 +1,83 @@
 
 
-@media only screen and (min-width: 640px) {
+.card {
+    display: flex;
+    flex-direction: column;
+  }
+
+.side-content {
+      flex: 0 0 20%;
+  }
+
+.row {
+    display: flex;
+  }
+
+.side-content-sm {
+    flex: 0 0 20%;
+  }
+  
+.main-content-lg {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+.project-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #navBar {
+    border-radius: 5px;
+    width: 100%; 
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+   }
+   
+
+#chevron {
+    padding-left: 38%;
+    padding-top: 0;
+    }
+
+
+
+@media only screen and (min-width: 900px) {
+
+/* General - Largest Screen */
+
+    p {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 30px;
+    }
+
+    .img {
+        width: 175px;
+        height: 238px;
+        border: none;
+        margin-bottom: 0;
+        margin-right: 15px;
+        border-radius: 5px;
+    }
+
+    .main-content {
+        flex: 0 0 60%;
+      }
+
+    .side-content {
+        flex: 0 0 20%;
+    }
+
+/* Landing Page - Largest Screen */
+
    .welcome {
     display: flex;
     flex-direction: row;
@@ -17,34 +94,18 @@
         padding-top: 0;
         padding-bottom: 0;
     }
-}
 
-/* About Me */
-
-
-
-@media only screen and (min-width: 640px) {
-    #navBar {
-        border-radius: 5px;
-        width: 100%; 
-    }
-
-    .logo2 {
-        margin-bottom: -4%;
-        padding-left: 38%;
-    }
-
-    a {
-        font-size: 30px;
-    }
+/* Navigation Page - Largest Screen */
 
     .navMenu1, .navMenu2, .navMenu3, .navMenu4, .navMenu5 {
         font-size: 25px;
         padding-right: 30px;
     }
 
-    p {
-        font-size: 20px;
+/* About Me - Largest Screen */
+    .logo2 {
+        margin-bottom: -4%;
+        padding-left: 38%;
     }
 
     .content {
@@ -53,57 +114,7 @@
         margin-bottom: 5px;
     }
 
-    .img {
-        width: 175px;
-        height: 238px;
-        border: none;
-        margin-bottom: 0;
-        margin-right: 15px;
-        border-radius: 5px;
-    }
-
 }
 
-/* Education */
 
-.card {
-    display: flex;
-    flex-direction: column;
-  }
-
-  @media only screen and (min-width: 640px) {
-    .main-content {
-        flex: 0 0 60%;
-      }
-
-    .side-content {
-        flex: 0 0 5%;
-}
-}
-
-/* Projects */
-
-.row {
-    display: flex;
-  }
-
-  .side-content-sm {
-    flex: 0 0 20%;
-  }
-  
-  .main-content-lg {
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-
-  .project-content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  /* Projects */
-
-  .side-content {
-      flex: 0 0 20%;
-  }
+  @media only screen and (min-width: 600px) and (max-width: 900px) {}
