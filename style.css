@@ -70,10 +70,8 @@ nav a:hover {
 /* About Me Page - Smallest Size */
   
   .logo2 {
-    height: 75px;
-    width: 55px;
     padding-right: 2px;
-    padding-left: 15%;
+    padding-left: 28%;
     padding-top: 8%;
     margin-bottom: -10%;
   }
@@ -97,12 +95,11 @@ nav a:hover {
       font-size: 20px;
       margin-bottom: 4%;
       margin-top: 15%;
-      
   }
 
   /* CONTACT ME LINKS - Smallest Size */
 
-.ul-contactMe {
+  .ul-contactMe {
     text-align: center;
     padding-left: 0;
   }
@@ -123,7 +120,6 @@ nav a:hover {
   
   .wrapper1 {
     border-bottom: 1px solid gainsboro;
-
 }
 
   /* Experience Page - Smallest Size  */
@@ -146,9 +142,97 @@ nav a:hover {
        color: white;
    }
 
+   .card-header, .card-header-ed, .card-content {
+    border: 1px solid #31b0d5;
+    margin-top: 2%;
+    margin-bottom: 2%;   
+     }
+
+  .card-header, .card-header-ed {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    margin-bottom: -2%;
+    color: white;
+     }
+
+  .card-header {
+    text-align: center;
+  }
+
+  .card-content {
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 5%;
+    background-color: white;
+     }
+
+  .wrapper1 {
+    padding-top: 3%;
+     }
+
    .wrapper2 {
        background-color: #31b0d5;
    }
+
+  /* Education Page - Smallest Size  */
+
+   .card-header-ed {
+     color: #31b0d5;
+     padding: 2%;
+   }
+
+  /* Project Page - Smallest Size  */
+
+  .proHeader {
+    color: white;
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin-bottom: 1px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
+  }
+
+  .project-content {
+    padding: 2%;
+    color: #31b0d5;;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .project-content a {
+      text-align: center;
+      border-radius: 5px;
+      color: white;
+      background-color: #31b0d5;
+      margin-left: 35%;
+      padding: 1%;
+  }
+
+  .wrapper4 {
+      background-image: url("https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  }
+
+/* Skills Page - Smallest Size  */
+
+  .ul-skills {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .li-skills {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: white;
+    background: #31b0d5;
+    border-radius: 5px;
+    list-style: none;
+    cursor: default;
+    font-size: 19px;
+  }  
 
 
    @media only screen and (min-width: 900px) {
@@ -172,116 +256,44 @@ nav a:hover {
 /* About Me Page - Largest Size */
     
     .logo2 {
-      height: 75px;
-      width: 55px;
-      padding-right: 2px;
       padding-top: 0;
       padding-left: 25%;
-      margin-bottom: -10%;
-    }
-    
-    .logo2:hover {
-      opacity: 0.7;
-    }
-    
-    .selfie {  
-        float: left;
-        margin-right: 15px;
-        
     }
   
     .self-content {
-        color: #777777;
-        line-height: 1.7;
-        font-size: 20px;
-        margin-bottom: 4%;
         margin-top: 0;
     }
     
-
 /* Experience Page - Largest Size */
 
-
     .card-header, .card-content {
-      border: 1px solid #31b0d5;
-      margin-top: 2%;
-      margin-bottom: 2%;
-      background-color: white;   
-       }
+        background-color: white;   
+   }
 
     .card-header {
-      padding-top: 2%;
-      padding-bottom: 2%;
-      text-align: center;
-      border-radius: 5px;
-      margin-bottom: -2%;
-       }
+        color: #31b0d5;
+   }
 
-    .card-content {
-      border-radius: 5px;
-      padding: 2%;
-      margin-bottom: 5%;
-       }
 
-    .wrapper1 {
-      padding-top: 3%;
-       }
+/* Projects Page - Largest Size */
 
-    }
+   .project-card {
+      margin-bottom: 30px;
+   }
 
-     /* Projects Page - Largest Size */
-
-    .proHeader {
-        color: white;
-    }
-
-     .project-card {
-        display: flex;
-        flex-direction: row;
-        background-color: white;
-        border: 1px solid rgba(0,0,0,.125);
-        border-radius: 5px;
-        margin-bottom: 30px;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
-      }
-
-      .project-image {
-        flex: 1 0 auto;
-      }
-
-      .project-image img {
-        display: block;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-      }
-
-      .project-content {
-        flex: 1 1 auto;
-        padding: 2%;
-        color: #31b0d5;;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      }
-
-      .project-content a {
-          
-          text-align: center;
-          border-radius: 5px;
-          color: white;
-          background-color: #31b0d5;
-      }
-
-      .wrapper4 {
-          background-image: url("https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-      }
+   .project-content a {
+      margin-left: 0%;
+   }
+    
 
       /* SKILLS Page - Largest Size */
 
-      .ul-skills {
+    .ul-skills {
         text-align: center;
         padding-left: 0;
       }
 
-      .li-skills {
+    .li-skills {
         display: inline-block;
         margin: 7px;
         padding: 5px 10px;
@@ -292,5 +304,7 @@ nav a:hover {
         cursor: default;
         font-size: 19px;
       }
+
+    }
 
       
