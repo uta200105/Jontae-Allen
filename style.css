@@ -13,10 +13,9 @@ a {
   margin:0 auto;
   padding: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  position: fixed;
+  position: sticky;
+  position: -webkit-sticky;
   top: 0;
-  display: flex;
-  justify-content: center;
 }
 
 nav li {
@@ -52,11 +51,14 @@ nav a:hover {
 .name {
   padding-left: 20%;
 }
+
+.jobTitle {
+  font-size: 23px;
+}
   
 #chevron {
     color: white;
     font-size: 70px;
-    padding-top: 3%;
     padding-left: 42%;
     text-shadow: 1px 1px 2px black;
     animation: mover 1s infinite alternate;
@@ -191,13 +193,13 @@ nav a:hover {
 .project-card {
     background-color: white;
     border: 1px solid rgba(0,0,0,.125);
-    border-radius: 5px;
-    margin-bottom: 1px;
+    border-radius: 2px;
+    margin-bottom: 15px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
   }
 
   .project-content {
-    padding: 2%;
+    padding: 1%;
     color: #31b0d5;;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
@@ -207,12 +209,12 @@ nav a:hover {
       border-radius: 5px;
       color: white;
       background-color: #31b0d5;
-      margin-left: 35%;
+      margin-left: 26%;
       padding: 1%;
   }
 
   .wrapper4 {
-      background-image: url("https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      background-image: linear-gradient(#31b0d5, white);
   }
 
 /* Skills Page - Smallest Size  */
@@ -251,6 +253,10 @@ nav a:hover {
 
     .name {
       padding-left: 0;
+    }
+
+    .jobTitle {
+      font-size: 40px;
     }
     
 /* About Me Page - Largest Size */
