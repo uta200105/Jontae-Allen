@@ -122,6 +122,7 @@ nav a:hover {
   
   .wrapper1 {
     border-bottom: 1px solid gainsboro;
+    padding-top: 3%;
 }
 
   /* Experience Page - Smallest Size  */
@@ -167,10 +168,6 @@ nav a:hover {
     padding: 2%;
     margin-bottom: 5%;
     background-color: white;
-     }
-
-  .wrapper1 {
-    padding-top: 3%;
      }
 
    .wrapper2 {
